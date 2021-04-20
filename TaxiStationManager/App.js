@@ -9,7 +9,6 @@ import ThirdOperationPage from "./Components/ThirdOperationPage";
 import Icon from "react-native-vector-icons/FontAwesome";
 
 const Tab = createBottomTabNavigator();
-
 export default function App() {
   return (
     <NavigationContainer>
@@ -27,7 +26,7 @@ export default function App() {
         <Tab.Screen name="Tip 1" component={FirstOperationPage} />
         <Tab.Screen name="Tip 2" component={SecondOperationPage} />
         <Tab.Screen name="Tip 3" component={ThirdOperationPage} />
-      </Tab.Navigator>
+      </Tab.Navigator>    
     </NavigationContainer>
   );
 }
