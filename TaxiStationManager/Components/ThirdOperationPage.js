@@ -15,7 +15,7 @@ const styles = StyleSheet.create({
   },
 });
 
-const GOOGLE_MAPS_APIKEY = "AIzaSyCYuFfaU5oUcaSj5Oou5rvfciKKGtD4pGM";
+const GOOGLE_MAPS_APIKEY = "Api Key";
 
 export default class ThirdOperationPage extends React.Component {
   constructor() {
